@@ -1,0 +1,163 @@
+================================================================
+Human Activity Recognition Using Smartphones Cleaned Dataset Code Book
+
+The data were taken from the Human Activity Recognition Dataset 
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+================================================================
+Variables
+
+subjectID: Unique identifier for each study subject; integer values 1-30.
+
+activity: identifier for each activity measured; values walking, ascendingStairs, descendingStairs, standing, sitting, lying.
+
+set: Identifies whether the data was included in the training or testing dataset; values "train" or "test".
+
+
+
+MeanBodyAccelerometerXAxis: accelerometer mean measured body acceleration in the X-axis.
+
+StDeviationBodyAccelerometerXAxis: accelerometer standard deviation of body acceleration measured in the X-axis.
+
+MeanBodyAccelerometerYAxis: accelerometer mean measured body acceleration in the Y-axis.
+
+StDeviationBodyAccelerometerYAxis: accelerometer standard deviation of body acceleration measured in the Y-axis.
+
+MeanBodyAccelerometerZAxis: accelerometer mean measured body acceleration in the Z-axis.
+
+StDeviationBodyAccelerometerZAxis: accelerometer standard deviation of body acceleration measured in the Z-axis.
+
+
+
+MeanGravityAccelerometerXAxis: accelerometer mean measured gravity acceleration in the X-axis.
+
+StDeviationGravityAccelerometerXAxis: accelerometer standard deviation of gravity acceleration measured in the X-axis.
+
+MeanGravityAccelerometerYAxis: accelerometer mean measured gravity acceleration in the Y-axis.
+
+StDeviationGravityAccelerometerYAxis: accelerometer standard deviation of gravity acceleration measured in the Y-axis.
+
+MeanGravityAccelerometerZAxis: accelerometer mean measured gravity acceleraton in the Z-axis.
+
+StDeviationGravityAccelerometerZAxis: accelerometer standard deviation of gravity Accelerometer measured in the Z-axis.
+
+
+
+MeanBodyJerkXAxis: accelerometer calculated mean body jerk measured in X-axis.
+
+StDeviationBodyJerkXAxis: accelerometer calculated standard deviation of jerk in body measured in X-axis.
+
+MeanBodyJerkYAxis: accelerometer calculated mean jerk in body measured jerk in Y-axis.
+
+StDeviationBodyJerkYAxis: accelerometer calculated standard deviation of jerk in body measured in Y-axis.
+
+MeanBodyJerkZAxis: accelerometer calculated mean body jerk in Z-axis.
+
+StDeviationBodyJerkZAxis: accelerometer calculated standard deviation of jerk in body measured in Z-axis.
+
+
+
+MeanBodyGyroXAxis: gyro measured mean measured body acceleration in the X-axis.
+
+StDeviationBodyGyroXAxis: gyro measured standard deviation of body acceleration measured in the X-axis.
+
+MeanBodyGyroYAxis: gyro measured mean measured body acceleration in the Y-axis.
+
+StDeviationBodyGyroYAxis: gyro measured standard deviation of body acceleration measured in the Y-axis.
+
+MeanBodyGyroZAxis: gyro measured mean measured body Accelerometer in the Z-axis.
+
+StDeviationBodyGyroZAxis: gyro measured standard deviation of body acceleration measured in the Z-axis.
+
+
+
+MeanGyroJerkXAxis: gyro calculated mean body jerk measured in X-axis.
+
+StDeviationGyroJerkXAxis: gyro calculated standard deviation of body jerk measured in X-axis.
+
+MeanGyroJerkYAxis: gyro calculated mean jerk in body measured jerk in Y-axis.
+
+StDeviationGyroJerkYAxis: gyro calculated standard deviation of body jerk measured in Y-axis.
+
+MeanGyroJerkZAxis: gyro calculated mean body jerk in Z-axis.
+
+StDeviationGyroJerkZAxis: gyro calculated standard deviation of body jerk measured in Z-axis.
+
+
+
+MeanMagnitudeBodyAcceleration: accelerometer measured mean magnitude of body acceleration.
+
+StDeviationMagnitudeBodyAcceleration: accelerometer measured standard deviation of magnitude of body acceleration.
+
+MeanMagnitudeBodyGyro: gyro measured mean magnitude of body acceleration.
+
+StDeviationMagnitudeBodyGyro: gyro measured standard deviation of magnitude of body acceleration.
+
+MeanMagnitudeGravityAcceleration: accelerometer measured mean magnitude of gravity acceleration.
+
+StdMagnitudeGravityAccereration: accelerometer measured standard deviation of magnitude of gravity acceleration.
+
+
+
+MeanMagnitudeBodyJerk: accelerometer measured mean magnitude in body jerk.
+
+StDeviationMagnitudeBodyJerk: accelerometer measured standard deviation of magnitude in body jerk.
+
+
+                   
+MeanMagnitudeBodyGyroJerk: gyro measured mean magnitude in body jerk.
+
+StDeviationMagnitudeBodyGyroJerk: gyro measured standard deviation of magnitude in body jerk.
+
+
+
+FourierMeanBodyAccelerationXAxis: accelerometer measured mean in fourier tranformed body acceleration in the X axis.
+
+FourierStDeviationBodyAccelerationXAxis: accelerometer measured standard deviation in fourier tranformed body acceleration in the X axis.
+
+FourierMeanBodyAccelerationYAxis: accelerometer measured mean in fourier tranformed body acceleration in the Y axis.
+
+FourierStDeviationBodyAccelerationYAxis: : accelerometer measured standard deviation in fourier tranformed body acceleration in the Y axis.
+
+FourierMeanBodyAccelerationZAxis: accelerometer measured mean in fourier tranformed body acceleration in the Z axis.
+
+FourierStDeviationBodyAccelerationZAxis: accelerometer measured standard deviation in fourier tranformed body acceleration in the X axis.
+
+
+FourierMeanBodyJerkXAxis: accelerometer measured mean in fourier tranformed body jerk in the X axis.
+
+FourierStDeviationBodyJerkXAxis: accelerometer measured standard deviation in fourier tranformed body jerk in the X axis.
+
+FourierMeanBodyJerkYAxis: accelerometer measured mean in fourier tranformed body jerk in the Y axis.
+
+FourierStDeviationBodyJerkYAxis: accelerometer measured standard deviation in fourier tranformed body jerk in the Y axis.
+
+FourierMeanBodyJerkZAxis: accelerometer measured mean in fourier tranformed body jerk in the Z axis.
+
+FourierStDeviationBodyJerkZAxis: accelerometer measured standard deviation in fourier tranformed body jerk in the X axis.
+
+
+
+FourierMeanBodyJerkFrequencyXAxis: accelerometer measured mean frequency in fourier tranformed body jerk in the X axis.
+
+FourierMeanBodyJerkFrequencyYAxis: accelerometer measured mean frequency in fourier tranformed body jerk in the Y axis.
+
+FourierMeanBodyJerkFrequencyZAxis: accelerometer measured mean frequency in fourier tranformed body jerk in the Z axis.
+
+
+
+FourierMeanBodyGyroJerkXFrequencyAxis: gyro measured mean frequency in fourier tranformed body jerk in the X axis.
+
+FourierMeanBodyGyroJerkYFrequencyAxis: gyro measured mean frequency in fourier tranformed body jerk in the Y axis.
+
+FourierMeanBodyGyroJerkFrequencyZAxis: gyro measured mean frequency in fourier tranformed body jerk in the Z axis.
+
+
+
+FourierMeanMagnitudeBodyAcceleration: accelerometer measured mean of fourier transformed magnitude of body acceleration.
+
+FourierStDeviationMagnitudeBodyAcceleration: accelerometer measured standard deviation of fourier transformed magnitude of body acceleration.
+
+FourierMeanMagnitudeBodyAcceleration: accelerometer measured mean of fourier transformed magnitude of body acceleration.
+
